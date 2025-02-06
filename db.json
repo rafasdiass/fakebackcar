@@ -1,0 +1,120 @@
+{
+  "vehicles": [
+    {
+      "id": "1",
+      "plate": "ABC-1234",
+      "chassis": "9BWZZZ377VT004251",
+      "renavam": "12345678901",
+      "model": "HB20",
+      "brand": "Hyundai",
+      "year": 2019
+    },
+    {
+      "id": "2",
+      "plate": "XYZ-9876",
+      "chassis": "1HGBH41JXMN109186",
+      "renavam": "23456789011",
+      "model": "Civic",
+      "brand": "Honda",
+      "year": 2020
+    },
+    {
+      "id": "3",
+      "plate": "DEF-4567",
+      "chassis": "1HGCM82633A123456",
+      "renavam": "34567890123",
+      "model": "Focus",
+      "brand": "Ford",
+      "year": 2021
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "José da Silva",
+      "email": "jose.silva@example.com",
+      "phone": "(11) 91234-5678",
+      "document": "123.456.789-00",
+      "address": "Rua das Acácias, 101 - São Paulo, SP"
+    },
+    {
+      "id": "2",
+      "name": "Maria Oliveira",
+      "email": "maria.oliveira@example.com",
+      "phone": "(21) 99876-5432",
+      "document": "987.654.321-00",
+      "address": "Av. Paulista, 2000 - São Paulo, SP"
+    },
+    {
+      "id": "3",
+      "name": "Carlos Santos",
+      "email": "carlos.santos@example.com",
+      "phone": "(31) 92345-6789",
+      "document": "321.654.987-00",
+      "address": "Rua dos Ipês, 50 - Belo Horizonte, MG"
+    },
+    {
+      "id": "4",
+      "name": "Ana Souza",
+      "email": "ana.souza@example.com",
+      "phone": "(41) 94567-1234",
+      "document": "654.987.321-00",
+      "address": "Rua XV de Novembro, 300 - Curitiba, PR"
+    },
+    {
+      "id": "5",
+      "name": "Pedro Lima",
+      "email": "pedro.lima@example.com",
+      "phone": "(51) 97890-1234",
+      "document": "789.123.456-00",
+      "address": "Av. Bento Gonçalves, 456 - Porto Alegre, RS"
+    }
+  ],
+  "rentals": [
+    {
+      "id": "101",
+      "userId": "1",
+      "vehicleId": "2",
+      "startDate": "2025-02-01",
+      "endDate": "2025-02-07",
+      "totalPrice": 1200,
+      "status": "active"
+    },
+    {
+      "id": "102",
+      "userId": "2",
+      "vehicleId": "3",
+      "startDate": "2025-01-15",
+      "endDate": "2025-01-22",
+      "totalPrice": 950,
+      "status": "completed"
+    },
+    {
+      "id": "103",
+      "userId": "3",
+      "vehicleId": "1",
+      "startDate": "2025-02-05",
+      "endDate": "2025-02-12",
+      "totalPrice": 1300,
+      "status": "active"
+    },
+    {
+      "id": "104",
+      "userId": "4",
+      "vehicleId": "3",
+      "startDate": "2025-01-10",
+      "endDate": "2025-01-17",
+      "totalPrice": 980,
+      "status": "completed"
+    },
+    {
+      "id": "105",
+      "userId": "5",
+      "vehicleId": "2",
+      "startDate": "2025-01-20",
+      "endDate": "2025-01-27",
+      "totalPrice": 1150,
+      "status": "canceled"
+    }
+  ]
+}
